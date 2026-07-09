@@ -464,7 +464,7 @@ Instructions:
         <div style={s.brand}>
           <div style={s.logo}>⚖</div>
           <div>
-            <div style={s.brandName}>ClearCounsel</div>
+            <div style={s.brandName}>ClearCounsel™</div>
             <div style={s.brandTag}>AI Compliance for Legal Professionals</div>
           </div>
         </div>
