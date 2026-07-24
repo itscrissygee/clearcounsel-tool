@@ -295,9 +295,17 @@ End with a one-sentence reminder that free legal aid is available in ${state} an
 
       {/* Header */}
       <div style={s.header}>
-        <div style={s.brand}>
-          <div style={s.logo}>⚖</div>
-          <span style={s.brandName}>ClearCounsel™</span>
+        <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
+          <div style={s.brand}>
+            <div style={s.logo}>⚖</div>
+            <span style={s.brandName}>ClearCounsel™</span>
+          </div>
+          <button
+            onClick={() => { window.location.hash = "/"; }}
+            style={{ background: "none", border: "none", color: "#6b7280", fontSize: 13, cursor: "pointer", fontFamily: "inherit" }}
+          >
+            ← All Tools
+          </button>
         </div>
         <div style={s.tagline}>Legal Jargon Translator — Understanding the Law Is Your Right</div>
       </div>
